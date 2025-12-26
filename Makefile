@@ -1,6 +1,6 @@
 # Variables
 CXX := g++
-CXXFLAGS := -Wall -Wextra -O1
+CXXFLAGS := -Wall -Wextra -O1 -g -DDEBUG
 LDFLAGS := -lz -lm -lpthread
 EXECUTABLE := bin/drever
 
